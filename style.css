@@ -16,7 +16,7 @@
 }
 
 @font-face {
-  font-family: "Ruh1";
+  font-family: "Vibes";
   src: url("/fonts/GreatVibes-Regular.ttf");
 }
 
@@ -41,7 +41,8 @@ li,
 button,
 label,
 input,
-p {
+p,
+a {
   font-size: var(--text);
 }
 h2 {
@@ -55,6 +56,16 @@ h4,
 h5 {
   font-size: var(--header4);
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
 /* used to center everything */
 .flex {
   display: flex;
@@ -63,10 +74,47 @@ h5 {
   align-items: center;
 }
 
-ul {
-  list-style: none;
+body {
+  font-family: "Ruhl", sans-serif;
 }
 
-a {
-  text-decoration: none;
+h1 {
+  font-family: "Vibes", sans-serif;
+}
+
+/* nav section */
+
+.main-head {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+nav {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  min-height: 10vh;
+  padding: 2rem 0rem;
+}
+
+#logo {
+  flex: 1 1 20rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-around;
+  flex: 1 1 20rem;
+}
+.hero {
+  min-height: 90vh;
+  width: 95%;
+  margin: 0 0 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.hero-introduction {
+  flex: 1 1 40rem;
+}
+.hero-image {
+  flex: 1 1 40rem;
 }
