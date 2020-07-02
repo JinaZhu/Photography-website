@@ -123,6 +123,7 @@ nav {
 }
 .hero-introduction p {
   padding: 5rem 10rem;
+  color: var(--gray-text);
 }
 .hero-introduction h2 {
   padding-top: 3rem;
