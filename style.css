@@ -75,7 +75,7 @@ a {
 }
 
 body {
-  font-family: "Ruhl", sans-serif;
+  font-family: "Ruh1", sans-serif;
   animation: opening 1s ease-in-out;
 }
 
@@ -208,6 +208,19 @@ menu-check {
   flex: 2 1 40rem;
   justify-content: space-around;
 }
+.about-text div {
+  padding: 3rem 8rem;
+}
+.about-text h3 {
+  padding: 2rem 0rem;
+  font-family: "Ruh1 Medium";
+}
+
+.about-text h2 {
+  font-family: "Vibes";
+  padding: 4rem;
+}
+
 .about-image {
   flex: 1 1 40rem;
   width: 70%;
@@ -218,6 +231,7 @@ menu-check {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -20%);
+  letter-spacing: 2rem;
 }
 .about-image img {
   width: 100%;
@@ -286,5 +300,8 @@ menu-check {
   }
   .menu-check:checked ~ .burger span:nth-child(2) {
     opacity: 0;
+  }
+  .about-text div {
+    padding: 3rem 3rem;
   }
 }
